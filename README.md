@@ -35,10 +35,10 @@ Data Generation: Synthetic demand data based on an exponential decay model with 
 
 # RL Environment: PricingEnv Gym environment that:
 
-Accepts price actions in  €/kWh
+- Accepts price actions in  €/kWh
 
-Samples demand 
+- Samples demand 
 
-Returns revenue as reward
+- Returns revenue as reward
 
-Provides normalized time-step and last-demand as observation
+- Provides normalized time-step and last-demand as observation
