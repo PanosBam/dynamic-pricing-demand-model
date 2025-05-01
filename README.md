@@ -1,5 +1,3 @@
-# dynamic-pricing-demand-model
-End-to-end pipeline for generating price - demand data: comparing regressors, extracting exponential parameters, and training RL agents in a custom Gym environment.
 # Dynamic Pricing Demand Model & RL Environment
 
 Procedure:
@@ -14,11 +12,11 @@ Evaluating model performance (RMSE, MAE, R²)
 
 Deploying a custom OpenAI Gym environment for dynamic pricing reinforcement learning
 
-Features
+# Features
 
 Data Generation: Synthetic demand data based on an exponential decay model with configurable noise.
 
-Model Suite:
+# Model Suite:
 
 Ridge-regularized polynomial regression (degree 2)
 
